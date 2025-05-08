@@ -12,22 +12,22 @@
     <!--start section Nav (le menu) -->
     <nav>
         <div class="logo">
-            <img src="" alt="logo">
+          <img src="img/logoAmine.png" alt="logo">
         </div>
-        <div class="menu">
-            <ul>
-                <li><a href="#">acceuil</a></li>
-                <li><a href="#">services</a></li>
-                <li><a href="#">a propos</a></li>
-                <li><a href="#">temoignage</a></li>
-                <li><a href="#">contacter</a></li>
-            </ul>
+        <button class="burger" id="burger">&#9776;</button> <!-- Hamburger (lol) pour mobile  -->
+        <div class="menu" id="menu">
+          <ul>
+            <li><a href="#acceuil">Accueil</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#a-propos">À propos</a></li>
+            <li><a href="#contact">Contacter</a></li>
+          </ul>
         </div>
-    </nav>
+      </nav>
     <!-- fin de Navbar (le menu)-->
 
     <!--start Header (en-tete)-->
-    <section class="Header">
+    <section id="acceuil" class="Header">
         <div class="Header-img">
             <img src="img" alt="">
             <br>
@@ -46,50 +46,50 @@
 
     <!--strat nos services (services)-->
 
-    <section class="services">
+    <section id="services" class="services">
         <div>
-            <div><img src="img/services-01-free-img-2.jpg" alt="AUTOMOVILES"> AUTOMOVILES <button
+            <div><img src="img/services-01-free-img-2.jpg" alt="AUTOMOVILES"> <strong>AUTOMOVILES</strong> <button
                     class="accordion">Assurance auto</button>
                 <div class="panel">
-                    <p>Lorem ipsum...</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, maiores.</p>
                 </div>
 
                 <button class="accordion">Assurance moto</button>
                 <div class="panel">
-                    <p>Lorem ipsum...</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, voluptates!</p>
                 </div>
 
                 <button class="accordion">Assurance responsabilité civile automobile</button>
                 <div class="panel">
-                    <p>Lorem ipsum...</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, velit.</p>
                 </div>
             </div>
 
-            <div><img src="img/services-02-free-img.jpg" alt="BIENS">BIENS ET HABITATION <button
+            <div><img src="img/services-02-free-img.jpg" alt="BIENS"><strong>BIENS ET HABITATION</strong> <button
                     class="accordion">Assurance habitation (propriétaire, locataire, copropriétaire)</button>
                 <div class="panel">
-                    <p>Lorem ipsum...</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, expedita!</p>
                 </div>
 
                 <button class="accordion">Assurance condo</button>
                 <div class="panel">
-                    <p>Lorem ipsum...</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, omnis.</p>
                 </div>
 
                 <button class="accordion">Assurance contre le vol et l’incendie</button>
                 <div class="panel">
-                    <p>Lorem ipsum...</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, dolores.</p>
                 </div>
             </div>
-            <div><img src="img/services-03-free-img.jpg" alt="COMMERCIALES">PROFESSIONNELLES ET COMMERCIALES <button
+            <div><img src="img/services-03-free-img.jpg" alt="COMMERCIALES"><strong>PROFESSIONNELLES ET COMMERCIALES</strong> <button
                     class="accordion">Assurance entreprise</button>
                 <div class="panel">
-                    <p>Lorem ipsum...</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, consectetur!</p>
                 </div>
 
                 <button class="accordion">Assurance pour travailleurs autonomes</button>
                 <div class="panel">
-                    <p>Lorem ipsum...</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, excepturi?</p>
                 </div>
 
                 <button class="accordion">Assurance responsabilité des administrateurs et dirigeants (D&O)</button>
@@ -103,7 +103,8 @@
 
     <!--strat a propos (a propos)-->
 
-    <section class="propos">
+    
+       <!-- <section class="propos">
         <div>
             <div class="texte">
                 <h2>À PROPOS</h2>
@@ -116,25 +117,134 @@
             <div class="img-propos">
                 <img src="img/logoAmine.png" alt="propos">
             </div>
-        </div>
-        <div>
-            <h3>Protéger ce qui compte vraiment</h3>
-            <h1>
-                Des solutions d’assurance fiables pour particuliers, entreprises et véhicules — simples, rapides et 100
-                % en ligne.
-            </h1>
-            <p>
-                Spécialisé dans les services d’assurance en ligne, nous mettons l’accent sur la proximité, la
-                transparence et la simplicité.
-                Que ce soit pour assurer votre maison, votre voiture ou protéger votre famille,
-                nous vous accompagnons avec des solutions personnalisées et adaptées à vos besoins, le tout sans
-                déplacement.
-            </p>
-        </div>
+        </div>--> 
+
+        <section id="a-propos" class="a-propos">
+            <div class="text-content">
+              <h2>À PROPOS</h2>
+              <h3>Assurence Amine, votre courtier en ligne</h3>
+              <p>
+                <strong>Assurence Amine</strong> est un courtier d’assurance 100 % en ligne, dédié à simplifier votre expérience. 
+                Grâce à une plateforme intuitive et un accompagnement personnalisé, nous vous aidons à trouver la couverture qui vous convient, 
+                rapidement et en toute transparence.
+              </p>
+            </div>
+            <div class="image-content">
+              <img src="img/logoAmine.png" alt="Courtier en ligne assurant une maison et une famille">
+            </div>
+          </section>
+        
     </section>
 
     <!--fin a propos (a propos)-->
 
+    <!--start solutions-section  -->
+
+    <section class="solutions-section">
+        <p class="highlight">Protéger ce qui compte vraiment</p>
+        <h1 class="main-title">
+          DES SOLUTIONS D’ASSURANCE FIABLES POUR PARTICULIERS, ENTREPRISES ET VÉHICULES — <br>
+          SIMPLES, RAPIDES ET 100 % EN LIGNE.
+        </h1>
+    
+        <hr class="separator">
+    
+        <div class="content-columns">
+          <div class="left-text">
+            <h2 class="orange-title">
+              ASSURENCE AMINE EST UN COURTIER INDÉPENDANT, DÉTENU ET GÉRÉ LOCALEMENT.
+            </h2>
+          </div>
+          <div class="right-text">
+            <p>
+              Spécialisé dans les services d’assurance en ligne, nous mettons l’accent sur la proximité, 
+              la transparence et la simplicité. Que ce soit pour assurer votre maison, votre voiture ou 
+              protéger votre famille, nous vous accompagnons avec des solutions personnalisées et adaptées 
+              à vos besoins, le tout sans déplacement.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--fin solutions-section  -->
+
+    <!--start choisir section -->
+    <section class="choisir-section">
+        <div class="left-content">
+          <h2>Pourquoi nous choisir ?</h2>
+          <p class="intro">
+            ENTIÈREMENT CERTIFIÉS, AGRÉÉS ET ASSURÉS, NOUS VOUS OFFRONS UN SERVICE FIABLE, CONFORME ET PROFESSIONNEL. AVEC 
+            <span class="highlight">ASSURENCE AMINE</span>, VOUS ÊTES ENTRE DE BONNES MAINS.
+          </p>
+        </div>
+        <div class="right-content">
+          <div class="card">
+            <div class="icon">🔒</div>
+            <div>
+              <h3>Professionnels certifiés pour mieux vous protéger.</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon">👤</div>
+            <div>
+              <h3>Support client</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon">💬</div>
+            <div>
+              <h3>Une maîtrise complète de vos besoins en assurance</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon">📘</div>
+            <div>
+              <h3>Une connaissance approfondie du marché et de vos besoins</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+          <!--fin choisir section -->
+
+          <!-- Formulaire de contact -->
+          <section id="contact" class="contact-section">
+    <h2>Contactez-nous</h2>
+    <form class="contact-form" action="#" method="post">
+      <input type="text" name="nom" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre email" required>
+      <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-info">
+        <h3>Nous contacter</h3>
+        <p><strong>Téléphone :</strong> 01 23 45 67 89</p>
+        <p><strong>Email :</strong> contact@amineassurance.fr</p>
+      </div>
+      <div class="footer-map">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9996480616734!2d2.2922926156741094!3d48.85837307928771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fc76f6d0505%3A0x40b82c3688c9460!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1622621172684!5m2!1sfr!2sfr" 
+          width="100%" 
+          height="200" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Assurence Amine. Tous droits réservés.</p>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
 
 
 </body>
