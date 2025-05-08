@@ -1,0 +1,5 @@
+- Un menu de navigation fixe et responsive (desktop & mobile)
+- Des sections claires : Accueil, Services, À propos, Contact
+- Des services affichés avec des boutons accordéons interactifs
+- Un formulaire de contact fonctionnel (HTML seulement) <!-- après on va l'adapté >
+- Une carte Google Maps intégrée
